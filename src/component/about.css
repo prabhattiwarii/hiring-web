@@ -1,0 +1,40 @@
+.about-wrap{width:100%;max-width:1440px;padding:20px;box-sizing: border-box;margin: 0 auto;}
+.about-wrap .intro-wrap,
+.about-wrap .activities-section{display: flex;color: skyblue;column-gap:50px;padding:20px 0;}
+.about-wrap .intro-wrap .banner-wrap,
+.about-wrap .intro-wrap .intro-text,
+.about-wrap .activities-section .banner-wrap,
+.about-wrap .activities-section .banner-wrap,
+.about-wrap .activities-section .business-activities{flex:1;}
+.about-wrap .intro-wrap .banner-wrap .img-wrap,
+.about-wrap .activities-section .banner-wrap .img-wrap{display: flex;position: relative;width: 100%;height: 350px;overflow: hidden;}
+.about-wrap .intro-wrap .banner-wrap .img-wrap .about-image,
+.about-wrap .activities-section .banner-wrap .img-wrap .business-image{position: absolute;height: 100%;width: 100%;inset: 0px;object-fit: contain;color: transparent;}
+.about-wrap .intro-wrap .intro-text .heading,
+.about-wrap .activities-section .business-activities .heading{font-size:28px;line-height:36px;margin:0 0 10px;color: black;}
+.about-wrap .intro-wrap .intro-text .about-text{font-size:14px;line-height:22px;margin:0 0 10px;}
+.about-wrap .intro-wrap .intro-text .sub-heading{font-size:22px;line-height:28px;margin:0 0 5px;font-weight:600;}
+.about-wrap .intro-wrap .intro-text .service-list,
+.about-wrap .activities-section .business-activities .activity-list{margin:0 0 0 20px;}
+.about-wrap .intro-wrap .intro-text .service-list .list,
+.about-wrap .activities-section .business-activities .activity-list .list{font-size:15px;line-height:26px;font-weight:500;}
+.about-wrap .intro-wrap .intro-text .success-text{font-size:18px;margin:10px 0 0;line-height:25px;}
+.about-wrap .team-section{padding:20px 0;}
+.about-wrap .team-section .heading{font-size:28px;line-height:36px;margin:0 0 10px;text-align:center;}
+.about-wrap .team-section .team-info{display: flex;flex-direction:column;gap:10px;}
+.about-wrap .team-section .team-info .team-text{font-size:15px;color: skyblue;line-height: 26px;}
+
+@media(max-width:767px){
+    .about-wrap .intro-wrap{flex-direction:column-reverse;row-gap:20px;}
+    .about-wrap .activities-section{flex-direction:column;row-gap:20px;}
+    .about-wrap .activities-section .banner-wrap .img-wrap,
+    .about-wrap .intro-wrap .banner-wrap .img-wrap{height:250px;}
+    .about-wrap .intro-wrap .intro-text .heading,
+    .about-wrap .activities-section .business-activities .heading,
+    .about-wrap .team-section .heading{font-size:22px;line-height:30px;margin:0 0 5px;}
+    .about-wrap .intro-wrap .intro-text .sub-heading{font-size:18px;line-height:25px;}
+    .about-wrap .intro-wrap .intro-text .service-list .list,
+    .about-wrap .activities-section .business-activities .activity-list .list{font-size:14px;line-height:22px;margin:0 0 2px;}
+    .about-wrap .intro-wrap .intro-text .success-text{font-size:14px;margin:5px 0 0;line-height:20px;}
+    .about-wrap .team-section .team-info .team-text{font-size:14px;line-height:20px;}
+}

@@ -1,0 +1,10 @@
+*{margin:0;padding:0;text-decoration:none;font-family: 'Poppins', sans-serif;box-sizing:border-box;}
+.splide .splide__arrows{opacity:1;}
+.splide .splide__arrows .splide__arrow--prev{left:2px;background:#FFF !important;opacity:1 !important;box-shadow:0 0 2px #00000029 !important;}
+.splide .splide__arrows .splide__arrow--prev svg{fill:cornflowerblue !important;}
+.splide .splide__arrows .splide__arrow--prev:hover{background:cornflowerblue !important;fill:#FFF !important;}
+.splide .splide__arrows .splide__arrow--prev:hover svg{fill:#FFF !important;}
+.splide .splide__arrows .splide__arrow--next{right:2px !important;background:#FFF !important;opacity:1 !important;box-shadow:0 0 2px #00000029 !important;}
+.splide .splide__arrows .splide__arrow--next svg{fill:cornflowerblue !important;}
+.splide .splide__arrows .splide__arrow--next:hover{background:cornflowerblue !important;}
+.splide .splide__arrows .splide__arrow--next:hover svg{fill:#FFF !important;}

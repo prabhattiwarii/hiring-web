@@ -1,0 +1,32 @@
+.testimonial-wrap{width:100%;max-width:1440px;margin:0 auto;padding:20px;box-sizing:border-box;}
+.testimonial-wrap .testimonial-client{display: flex;align-items: center;column-gap:40px;}
+.testimonial-wrap .testimonial-client .testimonial-left {flex:1;background-image:url("/public/images//shape-team-1.png");background-repeat:no-repeat;}
+.testimonial-left .heading{color: cornflowerblue;font-size: 20px;}
+.testimonial-left .testimonial-subtitle{padding: 30px;font-size: 20px;width: 70%;font-weight: 300;}
+.testimonial-left .testimonial-subtitle span{font-weight: 900;}
+.testimonial-arrows{display: flex;flex-direction: row;column-gap: 10px;align-items: center;justify-content: center;}
+.testimonial-arrows .arrow-one,
+.testimonial-arrows .arrow-two{background-color: cornflowerblue;border-radius: 50%;width: 50px;height: 50px;font-weight: 900;color: white;display: flex;justify-content: center;align-items: center;cursor: pointer;}
+.testimonial-wrap .testimonial-client .testimonial-right{flex:1;background-color: #f2faff;border-radius: 20px;padding: 40px 0px;overflow:hidden;}
+.testimonial-right .testimonial-review-wrapper{max-width:550px;width:100%;margin:0 auto;box-sizing: border-box;}
+.testimonial-review-wrapper .review-data-wrap {text-align:center;}
+.testimonial-review-wrapper .review-data-wrap .name{color: black;font-size: 14px;font-weight: 900;}
+.testimonial-review-wrapper .review-data-wrap .post,
+.testimonial-review-wrapper .review-data-wrap .address{font-size:14px;}
+.world {font-size: 28px;font-weight: 800;padding:20px;}
+.business-lifecycle {text-align: center;padding:20px 0;}
+.business-lifecycle .lifecycle-heading {font-size: 20px;font-family: cursive;font-weight: 400px;}
+.business-lifecycle .process-items {display: flex;flex-direction: row;column-gap: 10px;justify-content: center;align-items: center;padding: 20px;max-width: 952px;margin: 0 auto;}
+.business-lifecycle .process-items .process-item {font-size: 20px;line-height: 40px;font-weight: 600;position: relative;z-index: 0;color: black;margin-bottom: 20px;font-family: cursive;}
+.business-lifecycle .process-items .process-item:before {position: absolute;right: -150px;width: 150%;height: 1px;border-bottom: 2px dashed var(--paragraph-color);z-index: -1;transform: translateY(-50%);top: 50%;content: "";}
+.business-lifecycle .process-items .process-item:after {position: absolute;left: 50%;top: -13px;width: 70px;height: 60px;content: "";background-image: url(../../public/images/work-process-1.svg);background-repeat: no-repeat;background-position: center;transform: translateX(-50%);z-index: -1;}
+.business-lifecycle .process-items .process-item .process-title {color: black;font-weight: 500px;}
+.client-feedback{display: flex;flex-wrap:wrap;column-gap:40px;padding:20px 0;}
+.client-feedback .feedback-item {width:calc(50% - 20px);}
+.client-feedback .feedback-item .feedback-title {font-size: 20px;text-align:center;}
+.client-feedback .feedback-item .feedback-text {text-align: justify;padding: 20px;align-items: center;color: skyblue;}
+.client {color: black;font-weight: 500px;font-size: 20px;font-family: cursive;padding:20px;text-align:center;}
+.client-slider{padding:20px 0;}
+.client-slider .client-item{display: flex;position: relative;height: 60px;justify-content: center;}
+.client-slider .client-item .client-img{position: absolute;height: 100%;width: 100%;inset: 0px;object-fit: contain;color: transparent;transition: all 0.2s ease 0s;}
+.client-slider .client-item .client-img:hover{transform:scale(1.08);z-index:1;}
