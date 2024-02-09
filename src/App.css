@@ -8,3 +8,4 @@
 .splide .splide__arrows .splide__arrow--next svg{fill:cornflowerblue !important;}
 .splide .splide__arrows .splide__arrow--next:hover{background:cornflowerblue !important;}
 .splide .splide__arrows .splide__arrow--next:hover svg{fill:#FFF !important;}
+.splide__pagination{bottom: -1.5em !important;}

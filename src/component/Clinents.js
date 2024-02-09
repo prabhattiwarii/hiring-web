@@ -30,16 +30,15 @@ const SliderComponent = () => {
     const option = {
         type: "loop",
         autoplay: true,
-        interval: 1500,
+        interval: 5000,
         pauseOnHover: true,
         arrows:false,
         pagination: true,
         perPage: 1,
         perMove: 1,
-        gap: "30px",
+        gap: "20px",
         breakpoints: {
-            599: { perPage: 2 },
-            479: { perPage: 1 },
+            599: { perPage:1},
         },
     };
 
