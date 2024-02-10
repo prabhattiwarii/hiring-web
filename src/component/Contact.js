@@ -6,38 +6,28 @@ import PlaceIcon from "@mui/icons-material/Place";
 
 const Contact = () => {
     return (
-        <div className="section13">
-            <div className="dis-123">
-                <div className="contact-banner-section">Contact</div>
-                <div className="display-123">
-                    <div className="email-1">
-                        <div className="email1">
-                            <EmailIcon className="icon" />
-                        </div>{" "}
-                        jobiskille@gmail.com
-                    </div>
-
-                    <div className="email-1">
-                        <div className="email1">
-                            <PhoneInTalkIcon className="icon" />
-                        </div>{" "}
-                        +917017990795
-                    </div>
-
-                    <div className="email-1">
-                        <div className="email1">
-                            <PlaceIcon className="icon" />
-                        </div>{" "}
-                        709 A-D National-Highway Delhi-NCR
-                    </div>
-                </div>
-                <div className="contact">
+        <div className="contact-us-wrap">
+            <div className="heading">Contact us</div>
+            <div className="contact-details-wrap">
+                <a className="contact-link email-wrap" href="mailto:jobiskille@gmail.com">
+                    <div className="icon"><EmailIcon /></div>
+                    jobiskille@gmail.com
+                </a>
+                <a className="contact-link phone-wrap" href="tel:+917017990795">
+                    <div className="icon"><PhoneInTalkIcon /></div>
+                    +917017990795
+                </a>
+                <a className="contact-link address-wrap" href="https://maps.google.com/?q=709%20A-D%20National-Highway%20Delhi-NCR" target="_blank">
+                    <div className="icon"><PlaceIcon /></div>
+                    709 A-D National-Highway Delhi-NCR
+                </a>
+            </div>
+            <div className="right-wrap">
+                <div className="contact-banner">
                     <img className="image" src="./images/contact.png" alt="image" />
                 </div>
-
             </div>
         </div>
-
     );
 };
 

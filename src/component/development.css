@@ -22,7 +22,7 @@
 .development-section .devlopment-wrap .dev-item:hover {border: 3px solid skyblue;}
 .development-section .devlopment-wrap .dev-item .desc {color: #878a95;cursor: pointer;text-align:center;transition:.2s all;}
 .development-section .devlopment-wrap .dev-item .desc:hover {color: skyblue;}
-.development-section .devlopment-wrap .dev-item .title {font-family: cursive;font-size: 22px;}
+.development-section .devlopment-wrap .dev-item .title {font-family: cursive;font-size: 22px;font-weight:600;}
 .industry-serve-section {padding:20px 0;text-align:center;}
 .industry-serve-section .serve-heading{font-size: 26px;color: red;font-family: cursive;font-weight:600;line-height: 32px;margin:0 0 15px;}
 .industry-serve-section .serve-desc{font-size: 16px;color: black;padding:0 0 15px;max-width:1200px;margin:auto;}
@@ -30,7 +30,7 @@
 .industry-serve-section .industries-wrap .industry{width:calc(33.33% - 20px);}
 .industry-serve-section .industries-wrap .industry {border-radius: 5px;background-color: #f2faff;padding:20px;transition:.2s all;cursor: pointer;}
 .industry-serve-section .industries-wrap .industry:hover {color: skyblue;border: 3px solid skyblue;}
-.industry-serve-section .industries-wrap .industry .title{font-size:16px;font-family:cursive;}
+.industry-serve-section .industries-wrap .industry .title{font-size:16px;font-family:cursive;font-weight:600;}
 .development-section .special-technologies {padding:20px 0;text-align:center;}
 .special-technologies .heading{font-size:26px;color: red;font-family: cursive;text-align: center;margin:0 0 10px;font-weight:600;line-height:32px;}
 .special-technologies .sub-heading{margin:0 0 15px;}
@@ -38,7 +38,7 @@
 .technologies-wrap .technology{width:calc(25% - 23px);padding:25px 20px;color: white;border-radius: 10px;cursor: pointer;background-color: rebeccapurple;}
 .technologies-wrap .technology .tech-img{position: relative;width:65px;height:65px;background-color: #f2f1fa;display: flex;align-items: center;justify-content: center;margin:auto;border-radius:50%;}
 .technologies-wrap .technology .tech-img img{position: absolute;width:100%;height:100%;padding:10px;}
-.technologies-wrap .technology .tech-info .title{color:#fff;font-size:18px; font-family: cursive;margin:10px 0;}
+.technologies-wrap .technology .tech-info .title{color:#fff;font-size:18px;margin:10px 0;}
 .technologies-wrap .technology .tech-info:hover {color: skyblue;background-color: rebeccapurple;}
 
 
@@ -81,7 +81,6 @@
   .industry-serve-section .serve-heading{font-size:18px;margin:0 0 10px;}
   .industry-serve-section .industries-wrap{gap:15px;}
   .industry-serve-section .industries-wrap .industry{width:100%;}
-  .industry-serve-section .industries-wrap .industry .title{font-size:14px;}
   .special-technologies .heading{font-size:18px;line-height:24px;}
   .technologies-wrap .technology{width:100%;padding:25px 20px;}
 
