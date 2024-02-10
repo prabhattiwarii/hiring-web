@@ -51,7 +51,7 @@
 .expert-section .right{position: relative;flex:0 0 40%;}
 .expert-section .right .im1{position: absolute;top: 400px;right: 119px;}
 .expert-section .right .img-1{width: 500px;height: 650px;border-radius: 20px;}
-.expert-section .right .img-2{width: 450px;height: 300px;border-radius: 20px;}
+.expert-section .right .img-2{width: 450px;height: 300px;border-radius: 20px;transition:.2s all;}
 .expert-section .right .img-2:hover{cursor: pointer;transform: rotate(18deg);box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);}
 .expert-section .left .title{color: red;font-size: 22px;line-height:26px;}
 .expert-section .left .heading{color: black;font-size: 42px;font-weight: 600;line-height: 50px;}

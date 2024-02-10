@@ -88,7 +88,7 @@
 .expertise-category-2 .category-item:hover .item-skills{color:#fff;}
 .category-item .item-name{font-size: 24px;font-weight:700;color: #294762;}
 .category-item .item-skills{font-size: 16px;color: #294762;font-weight: 500;padding:10px;}
-.expertise-details .expertise-image .image {border-style: none;height: auto;max-width: 100%;object-fit: contain;width: 400px;height: 567px;vertical-align: middle;}
+.expertise-details .expertise-image .image {border-style: none;height: auto;max-width: 100%;object-fit: contain;width: 400px;height: 567px;vertical-align: middle;transition:.2s all;}
 .expertise-details .expertise-image .image:hover {transform: rotate(10deg);}
 
 /* statistics-container */
@@ -105,7 +105,7 @@
 .about-weaplines-section .weapline-subdetails{font-size:24px;}
 .about-weaplines-section .weapline-subdetails span {font-weight: 900;font-size:16px;display: flex;align-items: center;justify-content: center;}
 .about-weaplines-section .main-section {display: flex;padding:20px 0px;gap:20px;flex-wrap:wrap;}
-.main-section .sec-3 {background-color: #f2faff;border-radius: 10px;font-weight: 600;border: 1px solid #ccc;padding: 30px;cursor: pointer;width:calc(25% - 15px);}
+.main-section .sec-3 {background-color: #f2faff;border-radius: 10px;font-weight: 600;border: 1px solid #ccc;padding: 30px;cursor: pointer;width:calc(25% - 15px);transition:.2s all;}
 .main-section .sec-3:hover{border: 3px solid skyblue;}
 
 

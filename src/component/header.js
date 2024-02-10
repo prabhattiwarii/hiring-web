@@ -8,7 +8,7 @@ const Header = () => {
     const location = useLocation();
 
     const navData = [
-        { id: 1, title: "Home", link: "/", active: "home" },
+        { id: 1, title: "Business", link: "/business", active: "business" },
         { id: 2, title: "Development", link: "/development", active: "development" },
         { id: 3, title: "Services", link: "/offer", active: "offer" },
         { id: 4, title: "Clients", link: "/clients", active: "clients" },
@@ -37,7 +37,7 @@ const Header = () => {
     return (
         <div className="header-wrap">
             <div className="logo-wrap">
-                <h1><Link className="heading" to="/business"> Coding Jobs </Link></h1>
+                <h1><Link className="heading" to="/"> Coding Jobs </Link></h1>
                 <div className="text">Technologies</div>
             </div>
             <div className={`nav-items ${isMobileMenuOpen ? "open" : "close"}`}>
