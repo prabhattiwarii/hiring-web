@@ -4,29 +4,35 @@ import { businessIcon, educationIcon, entertainmentIcon, financeIcon, fooddrinkI
 
 const Business = () => {
 	const data = [
-		{ id: 1, title: "Busniess", icon: businessIcon },
-		{ id: 2, title: "Education", icon: educationIcon },
-		{ id: 3, title: "Entertainment & Music", icon: entertainmentIcon },
-		{ id: 4, title: "Finance", icon: financeIcon },
-		{ id: 5, title: "Food & Drink", icon: fooddrinkIcon },
-		{ id: 6, title: "Health & Fitness", icon: healthfitnessIcon },
-		{ id: 7, title: "Photo & Video", icon: galaryIcon },
-		{ id: 8, title: "Shopping", icon: shoppingIcon },
-		{ id: 9, title: "Sports", icon: sportIcon },
-		{ id: 10, title: "Social Networking", icon: socialmarketingIcon },
-		{ id: 11, title: "Travel", icon: travelIcon },
-		{ id: 12, title: "Lifestyle", icon: lifestyleIcon },
+		{ id:1, title:"Busniess", icon:businessIcon },
+		{ id:2, title:"Education", icon:educationIcon },
+		{ id:3, title:"Entertainment & Music", icon:entertainmentIcon },
+		{ id:4, title:"Finance", icon:financeIcon },
+		{ id:5, title:"Food & Drink", icon:fooddrinkIcon },
+		{ id:6, title:"Health & Fitness", icon:healthfitnessIcon },
+		{ id:7, title:"Photo & Video", icon:galaryIcon },
+		{ id:8, title:"Shopping", icon:shoppingIcon },
+		{ id:9, title:"Sports", icon:sportIcon },
+		{ id:10, title:"Social Networking", icon:socialmarketingIcon },
+		{ id:11, title:"Travel", icon:travelIcon },
+		{ id:12, title:"Lifestyle", icon:lifestyleIcon },
 	];
 	const clientData  = [
-		{id:1, text: "Highly skilled Developers", image: "./images/homeimg_1.png" },
-		{id:2, text: "On Time Delivery", image: "./images/homeimg_2.png" },
-		{id:3, text: "Quick Response", image: "./images/homeimg_3.png" },
-		{id:4, text: "Diverse Expertise", image: "./images/homeimg_4.png" },
-		{id:5, text: "Committed to Quality", image: "./images/homeimg_5.png" },
-		{id:6, text: "Responsive to your need", image: "./images/homeimg_6.png" },
-		{id:7, text: "Follows Industry Trends", image: "./images/homeimg_7.png" },
-		{id:8, text: "Guaranteed ROI", image: "./images/homeimg_8.png" }
+		{id:1, text:"Highly skilled Developers", image:"./images/homeimg_1.png" },
+		{id:2, text:"On Time Delivery", image:"./images/homeimg_2.png" },
+		{id:3, text:"Quick Response", image:"./images/homeimg_3.png" },
+		{id:4, text:"Diverse Expertise", image:"./images/homeimg_4.png" },
+		{id:5, text:"Committed to Quality", image:"./images/homeimg_5.png" },
+		{id:6, text:"Responsive to your need", image:"./images/homeimg_6.png" },
+		{id:7, text:"Follows Industry Trends", image:"./images/homeimg_7.png" },
+		{id:8, text:"Guaranteed ROI", image:"./images/homeimg_8.png" }
 	];
+	const achivementData = [
+		{id:1,title:"Satisfied Clients",number:"+200"},
+		{id:2,title:"Projects Completed",number:"+500"},
+		{id:3,title:"Client Retention",number:"96%"},
+		{id:4,title:"Years Completed",number:"13+"},
+	]
 	
 	return (
 		<div className="business-section-wrap">
@@ -147,22 +153,12 @@ const Business = () => {
 			</div>
 			<div className="statistics-container">
 				<div className="box-wrap">
-					<div className="box">
-						<div className="box-a">Satisfied Clients</div>
-						<span>+200</span>
-					</div>
-					<div className="box">
-						<div className="box-a">Projects Completed</div>
-						<span>+500</span>
-					</div>
-					<div className="box">
-						<div className="box-a">Client Retention</div>
-						<span>96%</span>
-					</div>
-					<div className="box">
-						<div className="box-a">Years Completed</div>
-						<span>13+</span>
-					</div>
+					{achivementData.map((item) => (
+						<div className="box">
+							<div className="box-a">{item.title}</div>
+							<span>{item.number}</span>
+						</div>
+					))}
 				</div>
 			</div>
 			<div className="about-weaplines-section">
