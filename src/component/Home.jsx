@@ -135,8 +135,8 @@ const Home = () => {
             </div>
             <div className="opportunity-section">
                 <div className="left">
-                    <div className="small">JOB OPPURTUNITIES</div>
-                    <div className="big">We are offering wide range of job oppurtunities</div>
+                    <div className="title">JOB OPPURTUNITIES</div>
+                    <div className="subtitle">We are offering wide range of job oppurtunities</div>
                 </div>
                 <div className="right">
                     <img src="./images/place-3.jpg" alt="images" />
@@ -146,11 +146,11 @@ const Home = () => {
                 <div className="left">
                     <div className="heading">Are you Looking for Recruitment Services?</div>
                     <div className='btn-wrap'>
-                        <div type='button' onClick={() => window.location = "/contact"} className="req-btn">ContactUs</div>
+                        <div type='button' onClick={() => window.location = "/contact"} className="req-btn">Contact Us</div>
                     </div>
                 </div>
                 <div className="right">
-                    <img src="./images/cta.png" alt="phon" />
+                    <img src="./images/cta.png" alt="phone-img" />
                 </div>
             </div>
         </div>
