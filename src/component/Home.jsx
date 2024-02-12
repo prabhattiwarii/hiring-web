@@ -90,11 +90,9 @@ const Home = () => {
                             <div className="im">
                                 <img src={item.img} alt="Logo" />
                             </div>
-                            <div className="word">
-                                <div className='un'>{item.title}</div>
-                                <div className='visibility'>
-                                    {item.text}
-                                </div>
+                            <div className="info">
+                                <div className='text'>{item.text}</div>
+                                <div className='title'>{item.title}</div>
                             </div>
                         </div>
                     ))}
@@ -108,11 +106,13 @@ const Home = () => {
                     <div className='desc'>We provide valuable insights and guidance throughout the recruitment process. We can help businesses understand current market trends and identify the most effective recruitment strategies for your company.</div>
                 </div>
                 <div className='right'>
-                    <div className="im">
-                        <img className='img-1' src='./images/about-1.jpg' alt="Logo" />
-                    </div>
-                    <div className="im1">
-                        <img className='img-2' src='./images/about-2.jpg' alt="Logo" />
+                    <div className="right-banner">
+                        <div className="im">
+                            <img className='img-1' src='./images/about-1.jpg' alt="Logo" />
+                        </div>
+                        <div className="im1">
+                            <img className='img-2' src='./images/about-2.jpg' alt="Logo" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@ const Home = () => {
                 <div className='services-wrap'>
                     {offerData.map((servics) => (
                         <div className='services-item' key={servics.id}>
-                            <img src={servics.img} alt='' />
+                            <div className="service-img"><img src={servics.img} alt='' /></div>
                             <div className="info">
                                 <div className="head">{servics.title}</div>
                                 <div className="head-1">{servics.desc}</div>
