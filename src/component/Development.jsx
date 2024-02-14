@@ -1,6 +1,5 @@
 import React from "react";
 import "./development.css";
-import "./offer.css";
 import { mobiledevlopmentIcon, webdesignIcon, webdevlopmentIcon } from "../helpers/Icon";
 const Development = () => {
     const devlopmentData = [

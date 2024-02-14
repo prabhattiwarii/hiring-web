@@ -12,8 +12,8 @@
 .development-section .web-success-section .heading span {color: red;font-family: cursive;}
 .development-section .web-success-section .sub-heading{font-size:18px;color: red;max-width:700px;margin:auto;padding:0 0 20px;}
 .development-section .web-success-section .btn-wrap{display:flex;justify-content:center;align-items: center;column-gap:20px;}
-.development-section .web-success-section .btn-wrap .contact-btn {border:none; background-color: black;color: white;border-radius: 10px;padding:10px 20px;}
-.development-section .web-success-section .btn-wrap .offer-btn{border:none;  background-color: red;color: white;border-radius: 10px;padding:10px 20px;}
+.development-section .web-success-section .btn-wrap .contact-btn {border:none; background-color: black;color: white;border-radius: 10px;padding:10px 20px;cursor: pointer;}
+.development-section .web-success-section .btn-wrap .offer-btn{border:none;  background-color: red;color: white;border-radius: 10px;padding:10px 20px;cursor: pointer;}
 .development-section .about-content-wrap {padding:20px 0;}
 .development-section .about-content-wrap .heading{font-size:26px;color: red;font-family: cursive;text-align: center;margin:0 0 10px;font-weight:600;line-height:32px;}
 .development-section .about-content-wrap p{margin:0 0 15px;font-size:16px;color: #6c8ba7;}
@@ -37,7 +37,7 @@
 .technologies-wrap{display:flex;flex-wrap:wrap;gap:30px;}
 .technologies-wrap .technology{width:calc(25% - 23px);padding:25px 20px;color: white;border-radius: 10px;cursor: pointer;background-color: rebeccapurple;}
 .technologies-wrap .technology .tech-img{position: relative;width:65px;height:65px;background-color: #f2f1fa;display: flex;align-items: center;justify-content: center;margin:auto;border-radius:50%;}
-.technologies-wrap .technology .tech-img img{position: absolute;width:100%;height:100%;padding:10px;}
+.technologies-wrap .technology .tech-img img{position: absolute;width:100%;height:100%;padding:10px;background-blend-mode: multiply;}
 .technologies-wrap .technology .tech-info .title{color:#fff;font-size:18px;margin:10px 0;}
 .technologies-wrap .technology .tech-info:hover {color: skyblue;background-color: rebeccapurple;}
 
