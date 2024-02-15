@@ -85,12 +85,12 @@ const Contact = () => {
         e.preventDefault();
         if (validate()) {
             try {
-                const {data} = await axios.post("http://localhost:3004/contact",form)
-                if(data){
-                    toast.success("submit succesfully",toastOptions)
+                const response = await axios.post("http://localhost:4004/user",form)
+                if(response.status === 200){
+                    toast.success(response.data.message, toastOptions);
                     setForm({first_name: "",last_name: "", email: "", phone: "", message: "",website:"",interest:""});
                 }else{
-                    toast.error("error",toastOptions);
+                    toast.error("An error occurred during form submission.", toastOptions);
                 }
             } catch (error) {
                 console.log(error);
