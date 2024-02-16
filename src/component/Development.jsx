@@ -9,17 +9,17 @@ const Development = () => {
     ]
     const serverData = [
         {id:1,industry:"Education and Human Resources"},
-        {id:1,industry:"Real Estate and Property"},
-        {id:1,industry:"Legal and Professional"},
-        {id:1,industry:"E-commerce and Retail"},
-        {id:1,industry:"Athletes and Artists"},
-        {id:1,industry:"Software and Hi-Tech"},
-        {id:1,industry:"Healthcare and Social Services"},
-        {id:1,industry:"Restaurants and Venues"},
-        {id:1,industry:"Corporate & Consulting"},
-        {id:1,industry:"Automotive & Industrial"},
-        {id:1,industry:"Information Technology"},
-        {id:1,industry:"Start Ups"},
+        {id:2,industry:"Real Estate and Property"},
+        {id:3,industry:"Legal and Professional"},
+        {id:4,industry:"E-commerce and Retail"},
+        {id:5,industry:"Athletes and Artists"},
+        {id:6,industry:"Software and Hi-Tech"},
+        {id:7,industry:"Healthcare and Social Services"},
+        {id:8,industry:"Restaurants and Venues"},
+        {id:9,industry:"Corporate & Consulting"},
+        {id:10,industry:"Automotive & Industrial"},
+        {id:11,industry:"Information Technology"},
+        {id:12,industry:"Start Ups"},
     ] 
     const techdata = [
         {image: "./images/salesforce.png",alt: "image",title: "Saleforce(SFCC,SFDC)",description: "includes all aspects of data planning, handling, analysis, documentation and storage."},

@@ -154,7 +154,7 @@ const Business = () => {
 			<div className="statistics-container">
 				<div className="box-wrap">
 					{achivementData.map((item) => (
-						<div className="box">
+						<div className="box" key={item.id}>
 							<div className="box-a">{item.title}</div>
 							<span>{item.number}</span>
 						</div>

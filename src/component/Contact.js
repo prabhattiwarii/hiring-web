@@ -83,6 +83,10 @@ const Contact = () => {
     }
     const handleSubmit = async(e) => {
         e.preventDefault();
+        if (process.env.REACT_APP_ENV === 'production') {
+            alert('Form submission is disabled in production.');
+            return;
+          }
         if (validate()) {
             try {
                 const response = await axios.post("http://localhost:4004/user",form)

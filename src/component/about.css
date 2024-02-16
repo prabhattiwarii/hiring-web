@@ -1,6 +1,6 @@
 .about-wrap{width:100%;max-width:1440px;padding:20px;box-sizing: border-box;margin: 0 auto;}
 .about-wrap .intro-wrap,
-.about-wrap .activities-section{display: flex;color: skyblue;column-gap:50px;padding:20px 0;}
+.about-wrap .activities-section{display: flex;color:#6c8ba7;column-gap:50px;padding:20px 0;}
 .about-wrap .intro-wrap .banner-wrap,
 .about-wrap .intro-wrap .intro-text,
 .about-wrap .activities-section .banner-wrap,
@@ -22,7 +22,7 @@
 .about-wrap .team-section{padding:20px 0;}
 .about-wrap .team-section .heading{font-size:28px;line-height:36px;margin:0 0 10px;text-align:center;}
 .about-wrap .team-section .team-info{display: flex;flex-direction:column;gap:10px;}
-.about-wrap .team-section .team-info .team-text{font-size:15px;color: skyblue;line-height: 26px;}
+.about-wrap .team-section .team-info .team-text{font-size:15px;color:#6c8ba7;line-height: 26px;}
 
 @media(max-width:767px){
     .about-wrap .intro-wrap{flex-direction:column-reverse;row-gap:20px;}

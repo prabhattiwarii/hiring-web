@@ -5,8 +5,8 @@ const Home = () => {
 
     const cardData = [
         {id:1,title:"Access to the Best Candidates",desc:"Finding the best candidates can be a challenging task, We have access to a pool of talented candidates for your business, with our effective recruitment strategies."},
-        {id:1,title:"Enable Business Growth",desc:"Allow your business to reach new heights with our effective recruitment and retention tactics, as well as personnel development and training for your employees."},
-        {id:1,title:"Save time & money",desc:"We can help your company to save time and money to by providing expert HR solutions in key areas, allowing you to focus on other aspects of the business."},
+        {id:2,title:"Enable Business Growth",desc:"Allow your business to reach new heights with our effective recruitment and retention tactics, as well as personnel development and training for your employees."},
+        {id:3,title:"Save time & money",desc:"We can help your company to save time and money to by providing expert HR solutions in key areas, allowing you to focus on other aspects of the business."},
     ]
     const requirementData = [
         {id:1,img:"./images/coaching-1.jpg",title:"Understanding",text:"We understand your business and the specific requirements for candidates business is looking to fill."},

@@ -18,7 +18,7 @@
 .business-detail-section{display: flex;flex-direction: column;padding:40px 0;}
 .business-detail-section .business-heading{color: black;font-size: 22px;font-weight: 700;text-align: justify;}
 .business-detail-section .lists{display: flex;flex-direction: column;row-gap:10px;list-style:decimal;padding: 20px;}
-.business-detail-section .lists .list{color: #878895;font-size: 16px;line-height:25px;}
+.business-detail-section .lists .list{color:#6c8ba7;font-size: 16px;line-height:25px;}
 .business-detail-section .lists .list span{font-size:18px;}
 
 /* business-card */
