@@ -83,7 +83,7 @@ const Contact = () => {
     }
     const handleSubmit = async(e) => {
         e.preventDefault();
-        if (process.env.REACT_APP_ENV === 'production') {
+        if (process.env.HIRING_APP_ENV === 'production') {
             alert('Form submission is disabled in production.');
             return;
           }
