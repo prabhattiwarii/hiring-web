@@ -93,15 +93,15 @@
 .category-item .item-skills{font-size: 16px;color: #294762;font-weight: 500;padding:10px;}
 .expertise-details .expertise-image .image {border-style: none;height: auto;max-width: 100%;object-fit: contain;width: 400px;height: 567px;vertical-align: middle;animation: move 3s infinite linear;}
 @keyframes move {
-  0% {
-    transform: translateY(0); /* Starting point, no translation */
-}
-50% {
-    transform: translateY(-20px); /* Move up by 20 pixels */
-}
-100% {
-    transform: translateY(0); /* Endpoint, back to the starting point */
-}
+    0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+  100% {
+      transform: translateY(0); 
+  }
 }
 
 /* statistics-container */
