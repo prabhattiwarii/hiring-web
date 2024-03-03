@@ -243,6 +243,7 @@
   .expert-section .right .right-banner .im{height:270px;}
   .expert-section .right .right-banner .im1{top: 140px;right: 82px;width: 239px }
   .expert-section .left .heading{font-size:24px;line-height:34px;}
+  .box-item .info .title{transform: translateY(68%);width:170px;}
   /* services-offer-section */
   .services-offer-section .servivces-heading{margin:0 0 20px;}
   .services-offer-section .servivces-heading .heading{font-size:18px;}

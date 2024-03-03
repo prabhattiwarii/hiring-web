@@ -85,11 +85,13 @@ const Contact = () => {
         e.preventDefault();
         if (validate()) {
             try {
-                const response = await axios.post("http://localhost:4004/user",form)
-                if(response.status === 200){
-                    toast.success(response.data.message, toastOptions);
+                const accessKey = "ddd17a17-5f7b-4b0c-9a0b-7f606d9a5f6f";
+                const response = await axios.post("https://api.web3forms.com/submit", { ...form, access_key: accessKey });
+
+                if(response.data.success){
+                    toast.success("form submitted successfully", toastOptions);
                     setForm({first_name: "",last_name: "", email: "", phone: "", message: "",website:"",interest:""});
-                }else{
+                } else {
                     toast.error("An error occurred during form submission.", toastOptions);
                 }
             } catch (error) {
@@ -98,6 +100,7 @@ const Contact = () => {
             }
         }
     }
+    
     return (
         <>
             <div className="contact-wrap">
@@ -107,11 +110,11 @@ const Contact = () => {
                     <div className="contact-call">
                         <a href="tel:7017990795" className="contact-wrap">
                             <span>{phoneIcon({width:18,height:18,fill:"skyblue"})}</span>
-                            <div className="heading"><div className="heading-detail">Phone</div>+917017990795</div>
+                            <div className="heading"><div className="heading-detail">Phone</div>+91 (123)-45-67890</div>
                         </a>
-                        <a href="mailto:jobiskille@gmail.com" className="contact-wrap">
+                        <a href="mailto:prabhattiwari9629@gmail.com" className="contact-wrap">
                             <span>{emailIcon({width:18,height:18,fill:"skyblue"})}</span>
-                            <div className="heading"><div className="heading-detail">Email</div>jobiskille@gmail.com</div>
+                            <div className="heading"><div className="heading-detail">Email</div>prabhattiwari9629@gmail.com</div>
                         </a>
                         <a href="https://maps.google.com/?q=709%20A-D%20National-Highway%20Delhi-NCR" target="_blank" rel="noopener noreferrer" className="contact-wrap">
                             <span>{mapIcon({width:18,height:18,fill:"skyblue"})}</span>

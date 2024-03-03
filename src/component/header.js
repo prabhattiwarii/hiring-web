@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./header.css";
 import { Link, useLocation } from "react-router-dom";
 import { barIcon, crosIcon } from "../helpers/Icon";
+import logo from "../logo.png"
 
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -37,8 +38,7 @@ const Header = () => {
     return (
         <div className="header-wrap">
             <div className="logo-wrap">
-                <h1><Link className="heading" to="/"> Coding Jobs </Link></h1>
-                <div className="text">Technologies</div>
+                <Link className="link" to="/"><img src={logo} alt="website logo" /></Link>
             </div>
             <div className={`nav-items ${isMobileMenuOpen ? "open" : "close"}`}>
                 {navData.map(item => (

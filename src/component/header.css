@@ -2,7 +2,7 @@
 .heading{color:black;transition:.3s all;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 .header-wrap .heading:hover {color:#87ceeb;}
 .nav-items {display:flex;justify-content:right;column-gap:40px;}
-.logo-wrap .text {font-size:12px;font-weight:500;color:#87ceeb;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-left:10px;}
+.logo-wrap img{width:70px;}
 .nav-items .nav .link{color:black;transition:.3s all;font-size:16px;}
 .nav-items .nav .link:hover {color:#87ceeb;}
 .nav-items .active .link{color:#87ceeb;}
@@ -19,5 +19,4 @@
     .nav-items.close{display:none;}
     .toggle-button{display:flex;align-items:center;}
     .nav-items.open{display:flex;flex-direction:column;align-items:start;row-gap:15px;box-shadow:#707070 0px 0px 5px 0px;border-radius:5px;padding:20px;position:absolute;top:95px;right:20px;left:20px;z-index:999;background-color:#fff;}
-    .logo-wrap .text {margin-left:5px;}
 }

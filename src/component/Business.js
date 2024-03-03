@@ -40,7 +40,7 @@ const Business = () => {
 				<div className="inner">
 					<div className="conversion-main">We Convert your Idea <br /> into <span> Reality </span></div>
 					<div className="conversion-description">Do you have any idea? Want to digitize Your business?</div>
-					<div className="conversion-inquire"><span>&gt;</span>Inquire Now</div>
+					<div className="conversion-inquire" onClick={() => window.location="/contact"}><span>&gt;</span>Inquire Now</div>
 				</div>
 			</div>
 			<div className="industry-solutions-section">
@@ -49,12 +49,12 @@ const Business = () => {
 					<div className="sub-main-heading">
 						Helping <span>Businesses</span> <br></br> in All Domains
 					</div>
-					<div className="main-details">
+					<p className="main-details">
 						Coding-Jobs Technology never shies away from a new challenge, new
 						technologies, and new markets. This flexibility and versatility have
 						allowed us to utilize our expertise across a growing range of
 						industries
-					</div>
+					</p>
 				</div>
 				<div className="solutions-items">
 					{data.map((item) => (
@@ -162,7 +162,7 @@ const Business = () => {
 				</div>
 			</div>
 			<div className="about-weaplines-section">
-				<div className="weapline-why">Why Choose Weapplinse</div>
+				<div className="weapline-why">Why Choose Coding-Job Technology</div>
 				<div className="weapline-subdetails">
 					We Create Amazing And Remarkable <br />
 					<span>Experience For Our Clients</span>
