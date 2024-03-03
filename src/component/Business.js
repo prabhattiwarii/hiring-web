@@ -165,8 +165,7 @@ const Business = () => {
 			<div className="about-weaplines-section">
 				<div className="weapline-why">Why Choose Coding-Job Technology</div>
 				<div className="weapline-subdetails">
-					We Create Amazing And Remarkable <br />
-					<span>Experience For Our Clients</span>
+					We Create Amazing And Remarkable <span>Experience For Our Clients</span>
 				</div>
 				<div className="main-section">
 					{clientData.map((data) => (

@@ -116,9 +116,9 @@
 
 /* about-weaplines-section */
 .about-weaplines-section {padding:20px 0px;text-align:center;}
-.about-weaplines-section .weapline-why{background-color: #ebf5ff;color: #1589f1;font-weight:600;font-size: 18px;display: inline-block;padding: 10px 30px;}
-.about-weaplines-section .weapline-subdetails{font-size:24px;}
-.about-weaplines-section .weapline-subdetails span {font-weight: 900;font-size:16px;display: flex;align-items: center;justify-content: center;}
+.about-weaplines-section .weapline-why{background-color: #ebf5ff;color: #1589f1;font-weight:700;font-size: 16px;display: inline-block;padding: 10px 30px;margin-bottom:15px;border-radius: 10px;}
+.about-weaplines-section .weapline-subdetails{font-size:34px;color: #294762;}
+.about-weaplines-section .weapline-subdetails span {font-weight:700;display: flex;align-items: center;justify-content: center;}
 .about-weaplines-section .main-section {display: flex;padding:20px 0px;gap:20px;flex-wrap:wrap;}
 .main-section .sec-3 {background-color: #f2faff;border-radius: 10px;font-weight: 600;border: 1px solid #ccc;padding: 30px;cursor: pointer;width:calc(25% - 15px);transition:.2s all;}
 .main-section .sec-3:hover{border: 3px solid skyblue;}
@@ -191,38 +191,41 @@
   .expertise-section .expertise-details {flex-direction:column;row-gap:30px;max-width: 360px;margin:auto;padding:20px 0;}
   .expertise-section .expertise-description {font-size:30px;}
   /* statistics-container */
-  .statistics-container .box-wrap{padding:30px 0;column-gap:30px;}
-  .statistics-container .box {width:calc(33.33% - 60px);height:150px}
-  .statistics-container .box .box-a {font-size:16px;}
+  .statistics-container .box-wrap{padding:60px 0;gap:30px;}
+  .statistics-container .box {width:calc(33.33% - 60px);height:190px}
+  .statistics-container .box .box-a {font-size:16px;margin-top:10px;}
   .statistics-container .box span {font-size:18px;}
   /* about-weaplines-section */
   .about-weaplines-section .main-section {display: flex;padding:20px 0px;gap:20px;flex-wrap:wrap;}
   .main-section .sec-3 {padding:20px;width:calc(33.33% - 13.5px);}
   .main-section .sec-3  .text{font-size:14px;}
+  .about-weaplines-section .weapline-subdetails{font-size:30px;}
 }
 @media(max-width:576px){
-  .statistics-container .box {width:calc(50% - 35px);height:150px}
+  .statistics-container .box {width:calc(50% - 35px);height:220px}
   .statistics-container .box .box-a {font-size:14px;}
   .statistics-container .box span {font-size:16px;}
 }
 @media(max-width:479px){
-  .business-section-wrap .conversion-section .conversion-main {font-size:28px;}
+  .business-section-wrap .conversion-section .conversion-main {font-size:22px;}
   .business-section-wrap .conversion-section .inner{max-width:360px;}
   .business-section-wrap .conversion-section .conversion-description{font-size:14px;}
   .business-section-wrap .conversion-section .conversion-inquire {font-size:16px;padding: 0 20px;}
   .business-section-wrap  .conversion-section .conversion-inquire span {width:38px;height:38px;font-size:24px;}
   /*industry-solutions-section*/
-  .industry-solutions-section .solutions-main .sub-main-heading {font-size:28px;font-weight:300;}
+  .industry-solutions-section .solutions-main .sub-main-heading {font-size:22px;font-weight:300;}
   .solutions-items{gap:20px 10px;}
   .solutions-items .solution-item {width:calc(50% - 5px);}
   .industry-solutions-section {gap:20px;}
   /*workflow-section*/
-  .workflow-description{font-size:28px;font-weight:300;}
+  .workflow-description{font-size:22px;font-weight:300;}
   .workflow-details{gap:20px 30px;}
   .workflow-item{width:calc(50% - 15.1px);}
   /* about-weaplines-section */
   .main-section .sec-3 {padding:20px;width:calc(50% - 10px);}
-  .expertise-section .expertise-description {font-size:28px;}
+  .expertise-section .expertise-description {font-size:22px;}
+  .about-weaplines-section .weapline-subdetails{font-size:22px;}
+  .statistics-container .box {width:80%;height:220px}
 }
 
 
