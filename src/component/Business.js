@@ -28,10 +28,10 @@ const Business = () => {
 		{id:8, text:"Guaranteed ROI", image:"./images/homeimg_8.png" }
 	];
 	const achivementData = [
-		{id:1,title:"Satisfied Clients",number:"+200"},
-		{id:2,title:"Projects Completed",number:"+500"},
-		{id:3,title:"Client Retention",number:"96%"},
-		{id:4,title:"Years Completed",number:"13+"},
+		{id:1,title:"Satisfied Clients",number:"+200",image:"./images/smile.png",bg:"#029e76",shadow:"0 2px 15px rgb(2 158 118 / 50%)"},
+		{id:2,title:"Projects Completed",number:"+500",image:"./images/settings.png",bg:"#ffa808",shadow:"0 2px 15px rgb(255 168 8 / 50%)"},
+		{id:3,title:"Client Retention",number:"96%",image:"./images/startup.png",bg:"#5543d1",shadow:"0 2px 15px rgb(85 67 209 / 50%);"},
+		{id:4,title:"Years Completed",number:"13+",image:"./images/confetti.png",bg:"#ff586e",shadow:"0 2px 15px rgb(255 88 110 / 50%)"},
 	]
 	
 	return (
@@ -47,7 +47,7 @@ const Business = () => {
 				<div className="solutions-main">
 					<div className="main-heading">Our Industry-specific IT Solutions!</div>
 					<div className="sub-main-heading">
-						Helping <span>Businesses</span> <br></br> in All Domains
+						Helping <span>Businesses</span> in All Domains
 					</div>
 					<p className="main-details">
 						Coding-Jobs Technology never shies away from a new challenge, new
@@ -69,7 +69,7 @@ const Business = () => {
 			</div>
 			<div className="workflow-section">
 				<div className="workflow-header">Our Work Flow</div>
-				<div className="workflow-description">Here are the steps &nbsp; <span>we follow</span></div>
+				<div className="workflow-description">Here are the steps &nbsp;<span>we follow</span></div>
 				<div className="workflow-steps">
 					<div className="step-1"></div>
 					<div className="step-2"></div>
@@ -113,9 +113,7 @@ const Business = () => {
 			<div className="expertise-section">
 				<div className="expertise-title">Our Expertise</div>
 				<div className="expertise-description">
-					Amazing Services to Build &nbsp;
-					<br />
-					<span>Busines Growth</span>
+					Amazing Services to Build <span>Busines Growth</span>
 				</div>
 				<div className="expertise-details">
 					<div className="expertise-category-1">
@@ -155,6 +153,9 @@ const Business = () => {
 				<div className="box-wrap">
 					{achivementData.map((item) => (
 						<div className="box" key={item.id}>
+							<div className="icon-wrap" style={{ background: item.bg, boxShadow: item.shadow }}>
+								<img src={item.image} alt="img"/>
+							</div>
 							<div className="box-a">{item.title}</div>
 							<span>{item.number}</span>
 						</div>
